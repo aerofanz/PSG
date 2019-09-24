@@ -1,0 +1,12 @@
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\bin\Debug\Northwind.BLL_api.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\bin\Debug\Northwind.BLL_api.pdb
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\bin\Debug\Northwind.Model.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\bin\Debug\Dapper.Contrib.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\bin\Debug\Dapper.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\bin\Debug\Northwind.Model.pdb
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\bin\Debug\Dapper.xml
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\obj\Debug\Northwind.BLL_api.csprojAssemblyReference.cache
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\obj\Debug\Northwind.BLL_api.csproj.CoreCompileInputs.cache
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\obj\Debug\Northwind.BLL_api.csproj.CopyComplete
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\obj\Debug\Northwind.BLL_api.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_api\obj\Debug\Northwind.BLL_api.pdb

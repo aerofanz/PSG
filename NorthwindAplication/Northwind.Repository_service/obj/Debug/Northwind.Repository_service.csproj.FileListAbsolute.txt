@@ -1,0 +1,14 @@
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Northwind.Repository_service.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Northwind.Repository_service.pdb
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Dapper.Contrib.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Dapper.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Northwind.Model.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Northwind.Repository_api.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Northwind.Model.pdb
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Northwind.Repository_api.pdb
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Dapper.xml
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.csprojAssemblyReference.cache
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.csproj.CoreCompileInputs.cache
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.csproj.CopyComplete
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.pdb
