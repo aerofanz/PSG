@@ -24,3 +24,17 @@ D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.csp
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.exe
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.pdb
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Northwind.Helper.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.Grid.Base.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.Grid.Windows.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.Grid.Windows.XmlSerializers.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.GridConverter.Windows.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.GridHelperClasses.Windows.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.Shared.Base.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.Shared.Windows.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.Tools.Base.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Syncfusion.Tools.Windows.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\EnvDTE.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\stdole.dll
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\bin\Debug\Northwind.Helper.pdb
+D:\Github\RSUP\PSG\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.Utility.FrmRegister.resources
