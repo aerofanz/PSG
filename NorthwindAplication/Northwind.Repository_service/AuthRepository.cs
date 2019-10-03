@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Dapper.Contrib.Extensions;
 using Northwind.Model;
 using Northwind.Repository_api;
@@ -27,7 +28,8 @@ namespace Northwind.Repository_service
 
         public IList<User> GetAll()
         {
-            throw new System.NotImplementedException();
+            var user = _context.db.GetAll<User>().ToList();
+            return user;
         }
 
         public User Login(string username, string password)

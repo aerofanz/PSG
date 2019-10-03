@@ -9,6 +9,7 @@ namespace Northwind.Repository_api
     public interface IUnitOfWork
     {
         IAuthRepository AuthRepository { get;  }
+        IRoleRepository RoleRepository { get; }
         void Commit();
         void Rollback();
     }

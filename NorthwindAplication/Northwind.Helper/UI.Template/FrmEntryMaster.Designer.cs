@@ -39,16 +39,10 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.grdLstData = new Syncfusion.Windows.Forms.Grid.GridListControl();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdLstData)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -172,49 +166,11 @@
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Controls.Add(this.panel3, 0, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(319, 65);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(481, 312);
-            this.tableLayoutPanel3.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel3.Controls.Add(this.grdLstData);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(475, 306);
-            this.panel3.TabIndex = 0;
-            // 
-            // grdLstData
-            // 
-            this.grdLstData.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.grdLstData.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.grdLstData.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdLstData.ItemHeight = 17;
-            this.grdLstData.Location = new System.Drawing.Point(0, 0);
-            this.grdLstData.Name = "grdLstData";
-            this.grdLstData.Properties.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdLstData.SelectedIndex = -1;
-            this.grdLstData.Size = new System.Drawing.Size(475, 306);
-            this.grdLstData.TabIndex = 0;
-            this.grdLstData.TopIndex = 0;
-            // 
             // FrmEntryMaster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "FrmEntryMaster";
@@ -225,9 +181,6 @@
             this.panel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grdLstData)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -245,8 +198,5 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Panel panel3;
-        private Syncfusion.Windows.Forms.Grid.GridListControl grdLstData;
     }
 }

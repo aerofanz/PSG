@@ -11,12 +11,15 @@ namespace Northwind.Repository_service
     {
         private readonly IDapperContext _context;
         private IAuthRepository _authRepository;
+        private IRoleRepository _roleRepository;
 
         public UnitOfWork(IDapperContext context)
         {
             _context = context;
         }
         public IAuthRepository AuthRepository => _authRepository ?? (_authRepository = new AuthRepository(_context));
+
+        public IRoleRepository RoleRepository => _roleRepository ?? (_roleRepository = new RoleRepository(_context));
 
         public void Commit()
         {

@@ -26,7 +26,17 @@ namespace Northwind.BLL_service
 
         public IList<User> GetAll()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = _uow.AuthRepository.GetAll().ToList();
+                _uow.Commit();
+                return result;
+            }
+            catch 
+            {
+                _uow.Rollback();
+                throw;
+            }
         }
 
         public bool Login(string username, string password, ref User user)
