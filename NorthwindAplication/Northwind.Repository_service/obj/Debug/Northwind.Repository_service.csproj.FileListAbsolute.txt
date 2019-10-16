@@ -8,7 +8,6 @@ D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\No
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Northwind.Repository_api.pdb
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\bin\Debug\Dapper.xml
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.csprojAssemblyReference.cache
-D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.csproj.CoreCompileInputs.cache
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.csproj.CopyComplete
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.dll
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Repository_service\obj\Debug\Northwind.Repository_service.pdb

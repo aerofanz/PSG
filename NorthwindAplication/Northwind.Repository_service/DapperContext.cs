@@ -23,7 +23,7 @@ namespace Northwind.Repository_service
             var server = "(local)";
             var dbName = "Northwind";
             var userId = "sa";
-            var userPassword = "1234";
+            var userPassword = "123";
 
             _providerName = "System.Data.SqlClient";
             _connectionString = string.Format("Server={0};Database={1};" +

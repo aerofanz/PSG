@@ -17,7 +17,7 @@ namespace Northwind.Helper.UI.Template
         //{
         //    this.InitializeComponent();
         //}
-
+        protected bool _isNewData;
         protected virtual void Tambah()
         {
 

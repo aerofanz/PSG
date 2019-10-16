@@ -12,7 +12,6 @@ D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_service\bin\Debug\Northwind
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_service\bin\Debug\Northwind.Repository_service.pdb
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_service\bin\Debug\Dapper.xml
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_service\obj\Debug\Northwind.BLL_service.csprojAssemblyReference.cache
-D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_service\obj\Debug\Northwind.BLL_service.csproj.CoreCompileInputs.cache
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_service\obj\Debug\Northwind.BLL_service.csproj.CopyComplete
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_service\obj\Debug\Northwind.BLL_service.dll
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.BLL_service\obj\Debug\Northwind.BLL_service.pdb

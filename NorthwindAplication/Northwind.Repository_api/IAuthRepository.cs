@@ -4,8 +4,9 @@ namespace Northwind.Repository_api
 {
     public interface IAuthRepository : IBaseRepository<User>
     {
-        User Login(string username, string password);
-        bool UserExists(string username);
-        void ChangePassword(string username, string password);
+        User Register(User user, string password);
+        User Login(string userid, string password);
+        bool UserExists(string userid);
+        void ChangePassword(string userid, string password);
     }
 }

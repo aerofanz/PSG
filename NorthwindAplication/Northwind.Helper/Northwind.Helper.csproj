@@ -74,6 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="ColorCollection.cs" />
+    <Compile Include="GridControlColSizeHelper.cs" />
+    <Compile Include="GridListControlHelper.cs" />
+    <Compile Include="GridListControlProperties.cs" />
+    <Compile Include="IListener.cs" />
+    <Compile Include="MsgHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI.Template\BaseFrmList.cs">
       <SubType>Form</SubType>

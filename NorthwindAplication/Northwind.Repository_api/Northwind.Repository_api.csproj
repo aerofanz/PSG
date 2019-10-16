@@ -44,6 +44,7 @@
     <Compile Include="IAuthRepository.cs" />
     <Compile Include="IBaseRepository.cs" />
     <Compile Include="IDapperContext.cs" />
+    <Compile Include="IRoleRepository.cs" />
     <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,5 +10,6 @@ namespace Northwind.BLL_api
     public interface IAuthBLL : IBaseBLL<User>
     {
         bool Login(string username, string password, ref User user);
+        int Register(UserForRegister userForRegister);
     }
 }

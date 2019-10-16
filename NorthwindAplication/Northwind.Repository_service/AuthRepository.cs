@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Dapper;
 using Dapper.Contrib.Extensions;
 using Northwind.Model;
 using Northwind.Repository_api;
@@ -16,7 +17,7 @@ namespace Northwind.Repository_service
             _context = context;
         }
 
-        public void ChangePassword(string username, string password)
+        public void ChangePassword(string userid, string password)
         {
             throw new System.NotImplementedException();
         }
@@ -32,9 +33,9 @@ namespace Northwind.Repository_service
             return user;
         }
 
-        public User Login(string username, string password)
+        public User Login(string userid, string password)
         {
-            var user = _context.db.Get<User>(username);
+            var user = _context.db.Get<User>(userid);
 
             if (user == null)
                 return null;
@@ -69,11 +70,31 @@ namespace Northwind.Repository_service
             throw new System.NotImplementedException();
         }
 
-        public bool UserExists(string username)
+        public bool UserExists(string userid)
         {
-            throw new System.NotImplementedException();
+            if (_context.db.QueryFirst<bool>("Select Count(1) From TblUser where UserId = @userid", new { userid }))
+                return true;
+
+            return false;
         }
 
-       
+        public User Register(User user, string password)
+        {
+            byte[] passwordHash, passwordSalt;
+            CreatePasswordHash(password, out passwordHash, out passwordSalt);
+            user.passwordSalt = passwordSalt;
+            user.passwordHash = passwordHash;
+            _context.db.Insert<User>(user);
+            return user;
+        }
+
+        private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
+        {
+            using(var hmac = new System.Security.Cryptography.HMACSHA512())
+            {
+                passwordSalt = hmac.Key;
+                passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+            }
+        }
     }
 }

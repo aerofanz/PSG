@@ -15,7 +15,6 @@ D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Helper\bin\Debug\stdole.dll
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csprojAssemblyReference.cache
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.UI.Template.FrmEntryMaster.resources
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csproj.GenerateResource.cache
-D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csproj.CoreCompileInputs.cache
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csproj.CopyComplete
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.dll
 D:\Github\RSUP\PSG\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.pdb

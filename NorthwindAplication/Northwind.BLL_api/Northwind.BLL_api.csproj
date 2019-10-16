@@ -44,6 +44,8 @@
     <Compile Include="Class1.cs" />
     <Compile Include="IAuthBLL.cs" />
     <Compile Include="IBaseBLL.cs" />
+    <Compile Include="Interface1.cs" />
+    <Compile Include="IRoleBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

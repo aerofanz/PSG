@@ -19,7 +19,12 @@ namespace Northwind.App.Utility
     public partial class FrmRegister : FrmEntryMaster
     {
         private IAuthBLL _authBLL;
+        private IRoleBLL _roleBLL;
+
         private IList<User> _lstUser = new List<User>();
+        private IList<Roles> _lstRole = new List<Roles>();
+        //private List<Roles> _lstRole2;
+
         public FrmRegister()
         {
             InitializeComponent();
@@ -29,10 +34,21 @@ namespace Northwind.App.Utility
         {
             InitializeComponent();
             _authBLL = new AuthBLL();
+            _roleBLL = new RoleBLL();
             LoadData();
             InitGrid();
             LockButton(true, false);
             LockField(false, false);
+            LoadRole();
+        }
+
+        private void LoadRole()
+        {
+            cboGroup.DataSource = _lstRole;
+            cboGroup.DisplayMember = "Name";
+            cboGroup.ValueMember = "Id";
+
+            cboGroup.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void LockField(bool v, bool w)
@@ -99,6 +115,76 @@ namespace Northwind.App.Utility
         protected override void LoadData()
         {
             _lstUser = _authBLL.GetAll().ToList();
+            _lstRole = _roleBLL.GetAll().ToList();
+        }
+
+        protected override void btnAddAksi()
+        {
+            ClearArea();
+            LockButton(false, true);
+            LockField(true, true);
+        }
+
+        protected override void SaveData()
+        {
+            var userReg = new UserForRegister
+            {
+                FirstName = txtFirst.Text,
+                LastName = txtLast.Text,
+                Password = txtPassword.Text,
+                UserId = txtUserID.Text,
+                Roles = Convert.ToInt32(cboGroup.SelectedValue.ToString())
+            };
+
+            var result = _authBLL.Register(userReg);
+
+            if(result == 1)
+            {
+                LoadData();
+                InitGrid();
+                LockButton(true, false);
+                LockField(false, false);
+                LoadRole();
+                MessageBox.Show("User Has Been Created");
+            }else if(result == 2)
+            {
+                MessageBox.Show("User Already Exists");
+            }
+            else
+            {
+                MessageBox.Show("User Has Been Failed");
+            }
+                
+            
+        }
+
+        protected override void BtnEditAksi()
+        {
+            ClearArea();
+            LockButton(false, true);
+            LockField(true, false);
+            GetDataFromList();
+            
+        }
+
+        protected override void ClearArea()
+        {
+            txtUserID.Text = "";
+            txtFirst.Text = "";
+            txtLast.Text = "";
+            txtUserID.Text = "";
+            cboGroup.SelectedValue = "";
+        }
+
+        private void GetDataFromList()
+        {
+            var index = grdLstUser.SelectedIndex;
+            var user = _lstUser[index];
+
+            txtUserID.Text = user.userId;
+            txtFirst.Text = user.firstName;
+            txtLast.Text = user.lastName;
+            cboGroup.SelectedValue = user.roles;
         }
     }
 }

@@ -66,7 +66,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(843, 28);
+            this.menuStrip.Size = new System.Drawing.Size(843, 30);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -81,49 +81,49 @@
             this.regionToolStripMenuItem,
             this.shipperToolStripMenuItem});
             this.masterToolStripMenuItem.Name = "masterToolStripMenuItem";
-            this.masterToolStripMenuItem.Size = new System.Drawing.Size(66, 24);
+            this.masterToolStripMenuItem.Size = new System.Drawing.Size(68, 26);
             this.masterToolStripMenuItem.Text = "Master";
             // 
             // customerToolStripMenuItem
             // 
             this.customerToolStripMenuItem.Name = "customerToolStripMenuItem";
-            this.customerToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.customerToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.customerToolStripMenuItem.Text = "Customer";
             // 
             // supplierToolStripMenuItem
             // 
             this.supplierToolStripMenuItem.Name = "supplierToolStripMenuItem";
-            this.supplierToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.supplierToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.supplierToolStripMenuItem.Text = "Supplier";
             // 
             // employeeToolStripMenuItem
             // 
             this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
-            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.employeeToolStripMenuItem.Text = "Employee";
             // 
             // categoryToolStripMenuItem
             // 
             this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.categoryToolStripMenuItem.Text = "Category";
             // 
             // productToolStripMenuItem
             // 
             this.productToolStripMenuItem.Name = "productToolStripMenuItem";
-            this.productToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.productToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.productToolStripMenuItem.Text = "Product";
             // 
             // regionToolStripMenuItem
             // 
             this.regionToolStripMenuItem.Name = "regionToolStripMenuItem";
-            this.regionToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.regionToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.regionToolStripMenuItem.Text = "Region";
             // 
             // shipperToolStripMenuItem
             // 
             this.shipperToolStripMenuItem.Name = "shipperToolStripMenuItem";
-            this.shipperToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.shipperToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.shipperToolStripMenuItem.Text = "Shipper";
             // 
             // transaksiToolStripMenuItem
@@ -131,13 +131,13 @@
             this.transaksiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.orderToolStripMenuItem});
             this.transaksiToolStripMenuItem.Name = "transaksiToolStripMenuItem";
-            this.transaksiToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
+            this.transaksiToolStripMenuItem.Size = new System.Drawing.Size(82, 26);
             this.transaksiToolStripMenuItem.Text = "Transaksi";
             // 
             // orderToolStripMenuItem
             // 
             this.orderToolStripMenuItem.Name = "orderToolStripMenuItem";
-            this.orderToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
+            this.orderToolStripMenuItem.Size = new System.Drawing.Size(130, 26);
             this.orderToolStripMenuItem.Text = "Order";
             // 
             // monitoringToolStripMenuItem
@@ -145,13 +145,13 @@
             this.monitoringToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.orderToolStripMenuItem1});
             this.monitoringToolStripMenuItem.Name = "monitoringToolStripMenuItem";
-            this.monitoringToolStripMenuItem.Size = new System.Drawing.Size(95, 24);
+            this.monitoringToolStripMenuItem.Size = new System.Drawing.Size(97, 26);
             this.monitoringToolStripMenuItem.Text = "Monitoring";
             // 
             // orderToolStripMenuItem1
             // 
             this.orderToolStripMenuItem1.Name = "orderToolStripMenuItem1";
-            this.orderToolStripMenuItem1.Size = new System.Drawing.Size(216, 26);
+            this.orderToolStripMenuItem1.Size = new System.Drawing.Size(130, 26);
             this.orderToolStripMenuItem1.Text = "Order";
             // 
             // utilityToolStripMenuItem
@@ -162,32 +162,32 @@
             this.mnuManagementAcces,
             this.mnuLogout});
             this.utilityToolStripMenuItem.Name = "utilityToolStripMenuItem";
-            this.utilityToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
+            this.utilityToolStripMenuItem.Size = new System.Drawing.Size(62, 26);
             this.utilityToolStripMenuItem.Text = "Utility";
             // 
             // mnuRegister
             // 
             this.mnuRegister.Name = "mnuRegister";
-            this.mnuRegister.Size = new System.Drawing.Size(216, 26);
+            this.mnuRegister.Size = new System.Drawing.Size(222, 26);
             this.mnuRegister.Text = "Register User";
             this.mnuRegister.Click += new System.EventHandler(this.MnuRegister_Click);
             // 
             // mnuChangePassword
             // 
             this.mnuChangePassword.Name = "mnuChangePassword";
-            this.mnuChangePassword.Size = new System.Drawing.Size(216, 26);
+            this.mnuChangePassword.Size = new System.Drawing.Size(222, 26);
             this.mnuChangePassword.Text = "Change Password";
             // 
             // mnuManagementAcces
             // 
             this.mnuManagementAcces.Name = "mnuManagementAcces";
-            this.mnuManagementAcces.Size = new System.Drawing.Size(216, 26);
+            this.mnuManagementAcces.Size = new System.Drawing.Size(222, 26);
             this.mnuManagementAcces.Text = "Management Acces";
             // 
             // mnuLogout
             // 
             this.mnuLogout.Name = "mnuLogout";
-            this.mnuLogout.Size = new System.Drawing.Size(216, 26);
+            this.mnuLogout.Size = new System.Drawing.Size(222, 26);
             this.mnuLogout.Text = "Log Out";
             // 
             // statusStrip
@@ -195,10 +195,10 @@
             this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 533);
+            this.statusStrip.Location = new System.Drawing.Point(0, 532);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip.Size = new System.Drawing.Size(843, 25);
+            this.statusStrip.Size = new System.Drawing.Size(843, 26);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -213,9 +213,9 @@
             this.mainDock.ActiveAutoHideContent = null;
             this.mainDock.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainDock.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
-            this.mainDock.Location = new System.Drawing.Point(0, 28);
+            this.mainDock.Location = new System.Drawing.Point(0, 30);
             this.mainDock.Name = "mainDock";
-            this.mainDock.Size = new System.Drawing.Size(843, 505);
+            this.mainDock.Size = new System.Drawing.Size(843, 502);
             this.mainDock.TabIndex = 4;
             // 
             // FrmMain

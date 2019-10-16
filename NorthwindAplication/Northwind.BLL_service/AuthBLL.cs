@@ -64,6 +64,33 @@ namespace Northwind.BLL_service
             return result;
         }
 
+        public int Register(UserForRegister userForRegister)
+        {
+            try
+            {
+                if (_uow.AuthRepository.UserExists(userForRegister.UserId))
+                    return 2; // user telah ada
+
+                var userToCreate = new User
+                {
+                    firstName = userForRegister.FirstName,
+                    lastName = userForRegister.LastName,
+                    roles = userForRegister.Roles,
+                    userId = userForRegister.UserId
+                };
+                _uow.AuthRepository.Register(userToCreate, userForRegister.Password);
+                _uow.Commit();
+                return 1;
+
+            }
+            catch (Exception)
+            {
+                _uow.Rollback();
+                return 0;
+                throw;
+            }
+        }
+
         public int Save(User obj)
         {
             throw new NotImplementedException();
